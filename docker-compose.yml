@@ -1,0 +1,15 @@
+version: '3'
+services:
+  flask_db:
+    container_name: flask_db
+    image: mysql:latest
+    restart: always
+    volumes:
+      - ../data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=flask_tutorial
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+    ports:
+      - 3308:3306

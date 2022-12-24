@@ -1,0 +1,7 @@
+/Env
+/__pycache__
+/app/__pycache__
+/app/controllers/__pycache__
+/app/models/__pycache__
+/migrations
+/seeds/__pycache__

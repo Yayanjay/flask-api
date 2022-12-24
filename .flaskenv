@@ -1,5 +1,5 @@
 FLASK_APP=main.py
 DB_HOST=localhost
-DB_DATABASE=nestjs_tutorial
-DB_USERNAME=nestadmin
-DB_PASSWORD=nestadmin
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
